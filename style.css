@@ -1,0 +1,42 @@
+.hh 
+{
+	font-size: 42pt;
+	color: black;
+}
+
+.list
+{
+	margin: auto;
+	background-color: #ddd;
+	width: 960px;
+	padding: 10px;
+
+}
+
+li  
+{
+	list-style-position: inside;
+	text-align: center;
+	text-decoration: none;
+}
+
+.text
+{
+	text-align: center;
+	font-size: 42;
+	font-family: 'Arial', 'Verdana', sans-serif;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.form
+{
+	padding:10px;
+	margin-left: 226px;
+	margin-right: 226px;
+	background-color: #d4d4d4;
+	text-align: center;
+}
