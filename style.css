@@ -1,15 +1,18 @@
 .hh 
 {
 	font-size: 42pt;
-	color: black;
+	color: ghostwhite;
+	text-shadow: 2px 2px 4px black;;
 }
 
 .list
 {
 	margin: auto;
-	background-color: #ddd;
+	background-color: #EAE7DC;
 	width: 960px;
 	padding: 10px;
+	margin-top: 30px;
+	border-radius: 30px;
 
 }
 
@@ -17,7 +20,7 @@ li
 {
 	list-style-position: inside;
 	text-align: center;
-	text-decoration: none;
+	list-style-type: none;
 }
 
 .text
@@ -25,18 +28,112 @@ li
 	text-align: center;
 	font-size: 42;
 	font-family: 'Arial', 'Verdana', sans-serif;
+
+
 }
 
 body
 {
 	margin: 0;
 	padding: 0;
+	background-image: url("back.jpg");
+	background-attachment: scroll;
+	background-color: #5D5C61;
 }
 .form
 {
 	padding:10px;
 	margin-left: 226px;
 	margin-right: 226px;
-	background-color: #d4d4d4;
+	background-color: #EAE7DC;
 	text-align: center;
+	margin-top: 30px;
+	border-radius: 30px;
+}
+
+.ht {
+	text-align: center;
+	font-size: 70px;
+	background-color: antiquewhite;
+	padding: 10px;
+	width: 100%;
+}
+
+nav
+{
+	position: absolute;
+	margin-left: 900px;
+	padding-top: 10px;
+}
+
+.button
+{
+	background-color: white;
+	width: 13em;
+	height: 3em;
+	border-radius: 20em;
+	box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.8);
+}
+
+
+.img 
+{
+	float:left;
+	margin:10px;
+	width:100px;
+	height:100px;
+	border-radius: 100px;
+	box-shadow: 3px 3px 0 black;;
+}
+
+header
+{
+	width:100%;
+	background-color:#5D5C61;
+	height:120px;
+
+
+}
+.zagolovok
+{
+
+	position: absolute;
+	padding-left: 130px;
+	padding-top: 48px;
+
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.table
+{
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: center;
+}
+.tbl 
+{
+	background-color: #EAE7DC;
+	width: 960px;
+	margin: auto;
+	padding: 10px;
+	margin-top: 32px;
+	border-radius: 30px;
+
+
+}
+.footer
+{
+	background-color: #5D5C61;
+	padding: 10px;
+	color: white;
+	margin-top: 30px;
+}
+
+h2
+{
+	font-size: 40px;
 }
